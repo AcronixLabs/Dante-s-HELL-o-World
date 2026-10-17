@@ -1,0 +1,596 @@
+{
+  "national_languages": [
+    {
+      "language": "Spanish",
+      "code": "es",
+      "greeting": "¡Hola, Mundo!",
+      "romanization": "¡Hola, Mundo!"
+    },
+    {
+      "language": "French",
+      "code": "fr",
+      "greeting": "Bonjour le Monde!",
+      "romanization": "Bonjour le Monde!"
+    },
+    {
+      "language": "German",
+      "code": "de",
+      "greeting": "Hallo, Welt!",
+      "romanization": "Hallo, Welt!"
+    },
+    {
+      "language": "Italian",
+      "code": "it",
+      "greeting": "Ciao, Mondo!",
+      "romanization": "Ciao, Mondo!"
+    },
+    {
+      "language": "Portuguese",
+      "code": "pt",
+      "greeting": "Olá, Mundo!",
+      "romanization": "Olá, Mundo!"
+    },
+    {
+      "language": "Japanese",
+      "code": "ja",
+      "greeting": "こんにちは、世界！",
+      "romanization": "Konnichiwa, Sekai!"
+    },
+    {
+      "language": "Chinese (Mandarin)",
+      "code": "zh",
+      "greeting": "你好，世界！",
+      "romanization": "Nǐ hǎo, shìjiè!"
+    },
+    {
+      "language": "Korean",
+      "code": "ko",
+      "greeting": "안녕하세요, 세계!",
+      "romanization": "Annyeonghaseyo, Segye!"
+    },
+    {
+      "language": "Russian",
+      "code": "ru",
+      "greeting": "Привет, мир!",
+      "romanization": "Privet, mir!"
+    },
+    {
+      "language": "Arabic",
+      "code": "ar",
+      "greeting": "أهلاً بالعالم!",
+      "romanization": "Ahlan bil-'alam!"
+    },
+    {
+      "language": "Hindi",
+      "code": "hi",
+      "greeting": "नमस्ते दुनिया!",
+      "romanization": "Namaste Duniyā!"
+    },
+    {
+      "language": "Greek",
+      "code": "el",
+      "greeting": "Γεια σου Κόσμε!",
+      "romanization": "Geia sou Kosme!"
+    },
+    {
+      "language": "Dutch",
+      "code": "nl",
+      "greeting": "Hallo, Wereld!",
+      "romanization": "Hallo, Wereld!"
+    },
+    {
+      "language": "Swedish",
+      "code": "sv",
+      "greeting": "Hej, Värld!",
+      "romanization": "Hej, Värld!"
+    },
+    {
+      "language": "Polish",
+      "code": "pl",
+      "greeting": "Witaj, Świecie!",
+      "romanization": "Witaj, Świecie!"
+    },
+    {
+      "language": "Turkish",
+      "code": "tr",
+      "greeting": "Merhaba, Dünya!",
+      "romanization": "Merhaba, Dünya!"
+    },
+    {
+      "language": "Hebrew",
+      "code": "he",
+      "greeting": "שלום, עולם!",
+      "romanization": "Shalom, Olam!"
+    },
+    {
+      "language": "Latin",
+      "code": "la",
+      "greeting": "Ave, Mundus!",
+      "romanization": "Ave, Mundus!"
+    },
+    {
+      "language": "Esperanto",
+      "code": "eo",
+      "greeting": "Saluton, Mondo!",
+      "romanization": "Saluton, Mondo!"
+    },
+    {
+      "language": "Swahili",
+      "code": "sw",
+      "greeting": "Habari, Dunia!",
+      "romanization": "Habari, Dunia!"
+    },
+    {
+      "language": "Vietnamese",
+      "code": "vi",
+      "greeting": "Xin chào, Thế giới!",
+      "romanization": "Xin chào, Thế giới!"
+    },
+    {
+      "language": "Thai",
+      "code": "th",
+      "greeting": "สวัสดีชาวโลก!",
+      "romanization": "Sawatdee chaowlok!"
+    },
+    {
+      "language": "Ukrainian",
+      "code": "uk",
+      "greeting": "Привіт, Світе!",
+      "romanization": "Pryvit, Svite!"
+    },
+    {
+      "language": "Filipino / Tagalog",
+      "code": "tl",
+      "greeting": "Mabuhay, Mundo!",
+      "romanization": "Mabuhay, Mundo!"
+    },
+    {
+      "language": "Irish Gaelic",
+      "code": "ga",
+      "greeting": "Dia dhuit, a Dhomhain!",
+      "romanization": "Dia dhuit, a Dhomhain!"
+    }
+  ],
+  "regional_dialects": [
+    {
+      "region": "Hawaiian Pidgin (Hawaii, USA)",
+      "dialect": "Hawaiian Creole English",
+      "greeting": "Aloha, World! Howzit?",
+      "notes": "Standard Hawaiian Creole greeting"
+    },
+    {
+      "region": "Southern US / Appalachian",
+      "dialect": "Southern American English",
+      "greeting": "Howdy, Y'all!",
+      "notes": "Informal regional greeting"
+    },
+    {
+      "region": "NYC / Brooklyn (USA)",
+      "dialect": "New York Vernacular",
+      "greeting": "Yo World, deadass!",
+      "notes": "Urban slang emphasis"
+    },
+    {
+      "region": "Boston (USA)",
+      "dialect": "Boston Vernacular",
+      "greeting": "Wicked hello, World!",
+      "notes": "Regional intensifier 'wicked'"
+    },
+    {
+      "region": "Upper Midwest / Minnesota (USA)",
+      "dialect": "Midwestern English",
+      "greeting": "Dontcha know, hello World!",
+      "notes": "Upper Midwest colloquialism"
+    },
+    {
+      "region": "Geordie (Newcastle, UK)",
+      "dialect": "North East English",
+      "greeting": "Areet, World!",
+      "notes": "Traditional Geordie greeting"
+    },
+    {
+      "region": "Scouse (Liverpool, UK)",
+      "dialect": "Merseyside English",
+      "greeting": "Alright laa, World!",
+      "notes": "Liverpool dialect"
+    },
+    {
+      "region": "Cockney (London, UK)",
+      "dialect": "East London Vernacular",
+      "greeting": "Cor blimey, 'ello World!",
+      "notes": "Traditional East London expression"
+    },
+    {
+      "region": "Yorkshire (UK)",
+      "dialect": "Northern English",
+      "greeting": "Ey up, World!",
+      "notes": "Classic Yorkshire greeting"
+    },
+    {
+      "region": "Northern Ireland",
+      "dialect": "Ulster English",
+      "greeting": "Bout ye, World!",
+      "notes": "Belfast / Ulster colloquial greeting"
+    },
+    {
+      "region": "Wales",
+      "dialect": "Welsh English",
+      "greeting": "Shwmae, World!",
+      "notes": "Traditional Welsh English greeting"
+    },
+    {
+      "region": "Scotland",
+      "dialect": "Scots / Scottish English",
+      "greeting": "Fitlike, World!",
+      "notes": "Doric / North East Scottish greeting"
+    },
+    {
+      "region": "Canada",
+      "dialect": "Canadian English",
+      "greeting": "Hello World, eh!",
+      "notes": "Classic Canadian tag"
+    },
+    {
+      "region": "Jamaica",
+      "dialect": "Jamaican Patois",
+      "greeting": "Wagwan, World!",
+      "notes": "Patois greeting ('What's going on?')"
+    },
+    {
+      "region": "Mexico (Chilango / Caló)",
+      "dialect": "Mexican Spanish",
+      "greeting": "¡Qué onda, Mundo!",
+      "notes": "Colloquial Mexican greeting"
+    },
+    {
+      "region": "Argentina / Uruguay",
+      "dialect": "Rioplatense Spanish",
+      "greeting": "¡Che, Hola Mundo!",
+      "notes": "Rioplatense 'Che' marker"
+    },
+    {
+      "region": "Caribbean (Puerto Rico / DR)",
+      "dialect": "Caribbean Spanish",
+      "greeting": "¡Klk, Dímelo Mundo!",
+      "notes": "'Qué lo qué' / 'Dímelo' Urban Caribbean"
+    },
+    {
+      "region": "Chile",
+      "dialect": "Chilean Spanish",
+      "greeting": "¡Wena, Mundo!",
+      "notes": "Chilean informal 'Wena'"
+    },
+    {
+      "region": "Colombia (Paisa)",
+      "dialect": "Colombian Spanish",
+      "greeting": "¡Quiubo, Mundo!",
+      "notes": "Paisa contraction of 'Qué hubo'"
+    },
+    {
+      "region": "Quebec (Canada)",
+      "dialect": "Québécois French",
+      "greeting": "Allô le Monde!",
+      "notes": "French Canadian informal greeting"
+    },
+    {
+      "region": "Haiti",
+      "dialect": "Haitian Creole",
+      "greeting": "Bonjou Latè!",
+      "notes": "Creole translation ('Good day Earth/World')"
+    },
+    {
+      "region": "Naples (Italy)",
+      "dialect": "Neapolitan",
+      "greeting": "Uè, Munno!",
+      "notes": "Neapolitan regional greeting"
+    },
+    {
+      "region": "Sicily (Italy)",
+      "dialect": "Sicilian",
+      "greeting": "Ciau, Munnu!",
+      "notes": "Sicilian language greeting"
+    },
+    {
+      "region": "Bavaria / Austria",
+      "dialect": "Bavarian / Austro-Bavarian",
+      "greeting": "Griaß di, Welt!",
+      "notes": "Alpine Bavarian greeting"
+    },
+    {
+      "region": "Switzerland",
+      "dialect": "Swiss German (Schwiizerdütsch)",
+      "greeting": "Grüëzi, Welt!",
+      "notes": "Swiss High German dialect"
+    },
+    {
+      "region": "Northern Germany",
+      "dialect": "Low German (Plattdütsch)",
+      "greeting": "Moin, Welt!",
+      "notes": "Traditional Low German greeting"
+    },
+    {
+      "region": "Singapore",
+      "dialect": "Singlish",
+      "greeting": "Hello World lah!",
+      "notes": "Colloquial discourse particle 'lah'"
+    },
+    {
+      "region": "Kansai (Japan)",
+      "dialect": "Kansai-ben",
+      "greeting": "まいど、世界！",
+      "notes": "Osaka/Kansai merchant greeting (Maido, Sekai!)"
+    },
+    {
+      "region": "Hong Kong",
+      "dialect": "Cantonese",
+      "greeting": "哈囉，世界！",
+      "notes": "Cantonese transliteration (Haalo, Saigai!)"
+    },
+    {
+      "region": "Philippines",
+      "dialect": "Taglish / Philippine English",
+      "greeting": "Kumusta, World!",
+      "notes": "Colloquial Tagalog-English mix"
+    },
+    {
+      "region": "Malaysia",
+      "dialect": "Manglish",
+      "greeting": "Hello World wei!",
+      "notes": "Malaysian informal particle"
+    },
+    {
+      "region": "Nigeria",
+      "dialect": "Nigerian Pidgin",
+      "greeting": "Howfar, World!",
+      "notes": "Naija Pidgin greeting"
+    },
+    {
+      "region": "South Africa",
+      "dialect": "South African English / Tsotsitaal",
+      "greeting": "Howzit, World!",
+      "notes": "South African colloquial greeting"
+    },
+    {
+      "region": "Egypt",
+      "dialect": "Egyptian Arabic",
+      "greeting": "ازيك يا عالم!",
+      "notes": "Egyptian colloquial ('Izzayak ya 'alam!')"
+    },
+    {
+      "region": "Poultry Barnyard (Global)",
+      "dialect": "Chicken / Avian Language",
+      "greeting": "Bawk bawk cluck, Hello World! Bawk bawk!",
+      "notes": "Avian poultry communication & cluck dialect"
+    },
+    {
+      "region": "Esoteric Programming Languages",
+      "dialect": "Chicken Esolang (Torbjörn Åsman)",
+      "greeting": "chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken",
+      "notes": "Torbjörn Åsman's 2007 esoteric language consisting entirely of the word 'chicken'"
+    }
+  ],
+  "fictional_languages": [
+    {
+      "universe": "Star Wars",
+      "language": "Mando'a (Mandalorian)",
+      "greeting": "Su'cuy, Manda!",
+      "meaning": "Hello (Still alive), Universe/World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Huttese",
+      "greeting": "Achuta, Hoya!",
+      "meaning": "Hello, World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Shyriiwook (Wookiee)",
+      "greeting": "RRRAARRWHHWGWW, World!",
+      "meaning": "Wookiee greeting / Hello, World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Droidspeak / Binary (Astromech)",
+      "greeting": "Beep-boop bleep-bloop, World!",
+      "meaning": "Binary acoustic droid protocol greeting"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Ewokese (Ewok)",
+      "greeting": "Yub nub, World!",
+      "meaning": "Freedom / Hello, World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Jawaese (Jawa)",
+      "greeting": "Utinni, World!",
+      "meaning": "Come here / Greetings, World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Sith / Ur-Kittât",
+      "greeting": "Nu tyûk, Rhaesh!",
+      "meaning": "I greet, World/Land!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Twi'lek / Rylothean (Ryl)",
+      "greeting": "N'Cha, World!",
+      "meaning": "Hello, World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Rodian",
+      "greeting": "Uta, World!",
+      "meaning": "Greetings, World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Gungan",
+      "greeting": "Mesa greetings, World!",
+      "meaning": "Greetings, World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Tusken Raider (Sand People)",
+      "greeting": "URoRRuR'R'R, World!",
+      "meaning": "Tusken roar / Hello, World!"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Geonosian",
+      "greeting": "[Click-clack-click], World!",
+      "meaning": "Geonosian bio-acoustic greeting"
+    },
+    {
+      "universe": "Star Wars",
+      "language": "Bocce (Outer Rim Trade)",
+      "greeting": "Dayn, World!",
+      "meaning": "Greetings / Hello, World!"
+    },
+    {
+      "universe": "Star Trek",
+      "language": "Klingon (tlhIngan Hol)",
+      "greeting": "nuqneH, 'u'!",
+      "meaning": "What do you want, Universe/World!"
+    },
+    {
+      "universe": "Lord of the Rings (Tolkien)",
+      "language": "Sindarin Elvish",
+      "greeting": "Suilad, Ambar!",
+      "meaning": "Greetings, World!"
+    },
+    {
+      "universe": "Lord of the Rings (Tolkien)",
+      "language": "Quenya Elvish",
+      "greeting": "Aiya, Ambar!",
+      "meaning": "Hail, World!"
+    },
+    {
+      "universe": "Game of Thrones (ASOIAF)",
+      "language": "Dothraki",
+      "greeting": "M'athchomaroon, Rhaesh!",
+      "meaning": "Greetings, World/Land!"
+    },
+    {
+      "universe": "Game of Thrones (ASOIAF)",
+      "language": "High Valyrian",
+      "greeting": "Geros ilas, Rhaesh!",
+      "meaning": "Greetings, World/Land!"
+    },
+    {
+      "universe": "Avatar",
+      "language": "Na'vi",
+      "greeting": "Kaltxì, ma Fayworld!",
+      "meaning": "Hello, O World!"
+    },
+    {
+      "universe": "The Sims",
+      "language": "Simlish",
+      "greeting": "Sul sul, World!",
+      "meaning": "Hello, World!"
+    },
+    {
+      "universe": "Despicable Me",
+      "language": "Minionese (Banana Language)",
+      "greeting": "Bello, World!",
+      "meaning": "Hello, World!"
+    },
+    {
+      "universe": "Language Games",
+      "language": "Pig Latin",
+      "greeting": "Elloha, Orldwa!",
+      "meaning": "Hello, World!"
+    },
+    {
+      "universe": "Dune (Frank Herbert)",
+      "language": "Chakobsa (Fremen / Arrakis)",
+      "greeting": "Subakh ul kuhar, World!",
+      "meaning": "May your morning be good, World! (Fremen morning blessing)"
+    },
+    {
+      "universe": "Dune (Frank Herbert)",
+      "language": "Fremen Dialect",
+      "greeting": "Ya hya chouhada, World!",
+      "meaning": "Long live the fighters, World!"
+    },
+    {
+      "universe": "Dune (Frank Herbert)",
+      "language": "Galach (Imperium Official)",
+      "greeting": "Bi-la kaifa, World!",
+      "meaning": "Without question / Greetings, World!"
+    },
+    {
+      "universe": "Dune (Frank Herbert)",
+      "language": "Bene Gesserit Azhar",
+      "greeting": "Litany Against Fear: Hello World!",
+      "meaning": "I must not fear. Fear is the mind-killer. Hello World!"
+    },
+    {
+      "universe": "Dune (Frank Herbert)",
+      "language": "Sardaukar Chant",
+      "greeting": "[Throat singing chant] Kwisatz Haderach, World!",
+      "meaning": "Imperial Sardaukar military battle chant / Hello World!"
+    },
+    {
+      "universe": "Dune (Frank Herbert)",
+      "language": "Spacing Guild High Code",
+      "greeting": "The spice must flow, World!",
+      "meaning": "High Navigator fold-space protocol / Hello World!"
+    },
+    {
+      "universe": "Dune (Frank Herbert)",
+      "language": "Atreides Battle Language",
+      "greeting": "[Silent finger-code gesture], Hello World!",
+      "meaning": "Atreides silent hand-signal tactical code"
+    },
+    {
+      "universe": "Dune (Frank Herbert)",
+      "language": "Harkonnen Dialect",
+      "greeting": "Baron's command: Hello World!",
+      "meaning": "Giedi Prime Harkonnen industrial directive"
+    },
+    {
+      "universe": "Star Trek",
+      "language": "Vulcan",
+      "greeting": "Dif-tor heh smusma, World!",
+      "meaning": "Live long and prosper, World!"
+    },
+    {
+      "universe": "Doctor Who",
+      "language": "High Gallifreyan",
+      "greeting": "Hello World, across all of time and space!",
+      "meaning": "Time Lord spatio-temporal greeting"
+    },
+    {
+      "universe": "Marvel / Wakanda",
+      "language": "Xhosa / Wakandan",
+      "greeting": "Yibambe, World!",
+      "meaning": "Hold fast / Greetings, World!"
+    },
+    {
+      "universe": "World of Warcraft",
+      "language": "Orcish",
+      "greeting": "Lok'tar ogar, World!",
+      "meaning": "Victory or death / Hello, World!"
+    },
+    {
+      "universe": "Elder Scrolls",
+      "language": "Dovahzul (Dragon Tongue)",
+      "greeting": "Drem Yol Lok, World!",
+      "meaning": "Peace Inspired Sky / Hello, World!"
+    },
+    {
+      "universe": "Halo",
+      "language": "Sangheili (Covenant)",
+      "greeting": "Wort wort wort, World!",
+      "meaning": "Sangheili battle-shout / Hello, World!"
+    },
+    {
+      "universe": "Transformers",
+      "language": "Cybertronian",
+      "greeting": "Till all are one, World!",
+      "meaning": "Cybertronian unity greeting"
+    }
+  ]
+}
