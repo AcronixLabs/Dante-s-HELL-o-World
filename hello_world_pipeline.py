@@ -89,7 +89,9 @@ def exec_e():
              .replace("atomic::{AtomicU64, AtomicU64, Ordering}",
                       "atomic::{AtomicU64, Ordering}")
              .replace("Self(time ^ ((sequence as u64) << 64))",
-                      "Self((time as u64) ^ sequence)"))
+                      "Self((time as u64) ^ sequence)")
+             .replace(".as_nanos()", ".as_nanos() as u64")
+    )
     with tempfile.TemporaryDirectory() as td:
         sp = os.path.join(td, "e_fixed.rs")
         open(sp, "w").write(src)
@@ -136,20 +138,21 @@ def exec_l_bf():
 
 
 def exec_o_chef():
-    """Chef o.chef -> prints 'o'."""
+    """Chef o.chef -> prints 'o' via serve()."""
     try:
         from chef_lang import Chef
         c = Chef()
         c.script = open(os.path.join(BASE, "o.chef")).read()
         c.parse_script()
-        # capture stdout writes the recipe uses
-        old = sys.stdout
-        sys.stdout = buf = io.StringIO()
         try:
             c.execute_script()
-        finally:
-            sys.stdout = old
-        produced = buf.getvalue()
+        except Exception:
+            pass
+        # Chef emits output through serve() (liquid ingredients as chr(value))
+        try:
+            produced = c.serve()
+        except Exception:
+            produced = ""
         return "o" if first_printable(produced) == "o" else None
     except Exception:
         return None
