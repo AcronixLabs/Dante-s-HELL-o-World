@@ -2,18 +2,19 @@ Dante's HELL "o" World
 
 "Abandon all sanity, ye who compile here."
 
-How to Gloriously Over-Engineer a Simple Concept: A 'Hello World' that makes your brain IMPLODE.
+Winner: "Gloriously Over-Engineered" Award
+
+How to Gloriously Over-Engineer a Simple Concept: A 'Hello World' That Makes Your Brain IMPLODE.
+
+HackoberFest 2026 — Fort Monroe, VA (October 17, 2026)
 
 Overview
 
-Dante’s HELL "o" World is an intentionally unhinged, multi-tiered esoteric computing architecture engineered for the hackathon. Rather than printing a standard string via a single print() statement, this project descends through the computational circles of the underworld—executing independent, hyper-complex esoteric programs across disparate paradigms just to assemble the characters of a greeting.
+Dante’s HELL "o" World is an intentionally unhinged, multi-tiered esoteric computing architecture engineered and showcased at HackoberFest 26 at historic Fort Monroe, Virginia. Instead of printing a standard string with a single print("Hello, World") statement, this project descends through all nine computational circles of the underworld—running independent, hyper-complex esoteric programs and over-engineered systems across disparate paradigms to assemble the greeting's characters.
 
-From baking recipes in stack-based mixing bowls to self-modifying ternary virtual machines and pointer gymnastics, each character is forged in its own circle of torment.
+From stack-based baking recipes in physical mixing bowls and 59,049-trit ternary virtual machines to raw Linux hardware syscalls, compile-time template recursion, and a quantum Proof-of-Work consensus ledger, every character is forged in its own circle of torment:
 
-       [ Circle I: Brainfuck ]  ──> 'L' (Fibonacci Pointer Stack)
-       [ Circle II: Chef ]       ──> 'O' (Baking Stack & Sub-Recipes)
-       [ Circle IX: Malbolge ]   ──> 'R' (Ternary Crazy-Operation VM)
-
+  <img src="Dantes%20Circles%201st%20image.jpg" alt="Dante's Circles Architecture" width="80%" />    
 
 System Architecture & File Structure
 
